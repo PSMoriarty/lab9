@@ -36,7 +36,7 @@ def main():
                 print(f'The encoded password is {password},'
                       f'and the original password is {decode(password)}.')
             else:
-                "No password has been entered."
+                print("No password has been entered.")
         elif menu_option != 3:
             print("Please enter a valid option.")
 
